@@ -1,0 +1,11 @@
+365 x Age = days Lived
+
+days lived / 791 = Age in Sweeps
+
+1. AIS x 791 = Age in Days at Next wriggling Day
+
+2. Age in Days at Next wriggling Day / 365 = Closest age At next Wriggling day
+
+3. 365 x (2.) = Age at That birthday In days
+
+4. (1.) - (3.) days between Birthday and Next wriggling Day

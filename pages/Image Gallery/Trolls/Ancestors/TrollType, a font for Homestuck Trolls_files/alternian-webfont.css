@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'alternian';
+  src: url("https://trolltype.mspa.sudrien.net/alternian.eot?v=1&captcha=TROLFONT");
+  src: url("https://trolltype.mspa.sudrien.net/alternian.eot?v=1&captcha=TROLFONT#iefix") format("embedded-opentype"), url("https://trolltype.mspa.sudrien.net/alternian.woff?v=1&captcha=TROLFONT") format("woff"), url("https://trolltype.mspa.sudrien.net/alternian.svg?v=1&captcha=TROLFONT#alternian") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.alternian, .alternian_flip, .alternian_flip *, .alternian *, .alternian_flip * {
+  direction: rtl;
+  font-family: 'alternian';
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: normal; }
+  .alternian:before, .alternian_flip:before, .alternian_flip :before, .alternian *:before, .alternian_flip *:before {
+    content: "\202E"; }
+  .alternian:after, .alternian_flip:after, .alternian_flip :after, .alternian *:after, .alternian_flip *:after {
+    content: "\202C"; }
+
+.alternian_flip:hover, .alternian_flip *:hover {
+  direction: ltr;
+  font: normal 14px/24px courier, "courier new", monospace; }
+  .alternian_flip:hover:before, .alternian_flip *:hover:before {
+    content: ""; }
+  .alternian_flip:hover:after, .alternian_flip *:hover:after {
+    content: ""; }
+

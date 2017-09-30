@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'trolltype';
+  src: url("https://trolltype.mspa.sudrien.net/trolltype.eot?v=12&captcha=TROLFONT");
+  src: url("https://trolltype.mspa.sudrien.net/trolltype.eot?v=12&captcha=TROLFONT#iefix") format("embedded-opentype"), url("https://trolltype.mspa.sudrien.net/trolltype.woff?v=12&captcha=TROLFONT") format("woff"), url("https://trolltype.mspa.sudrien.net/trolltype.svg?v=12&captcha=TROLFONT#trolltype") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.trolltype, .trolltype_flip, .trolltype_flip *, .trolltype *, .trolltype_flip * {
+  direction: rtl;
+  font-family: 'trolltype';
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .trolltype:before, .trolltype_flip:before, .trolltype_flip :before, .trolltype *:before, .trolltype_flip *:before {
+    content: "\202E"; }
+  .trolltype:after, .trolltype_flip:after, .trolltype_flip :after, .trolltype *:after, .trolltype_flip *:after {
+    content: "\202C"; }
+
+.trolltype_flip:hover, .trolltype_flip *:hover {
+  direction: ltr;
+  font: normal 14px/23px "Courier New", Courier, monospace; }
+  .trolltype_flip:hover:before, .trolltype_flip *:hover:before {
+    content: ""; }
+  .trolltype_flip:hover:after, .trolltype_flip *:hover:after {
+    content: ""; }
+

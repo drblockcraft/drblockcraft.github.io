@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'orwurm-alternian';
+  src: url("https://trolltype.mspa.sudrien.net/orwurm-alternian.woff?v=2&captcha=TROLFONT") format("woff"), url("https://trolltype.mspa.sudrien.net/orwurm-alternian.svg?v=2&captcha=TROLFONT#orwurm-alternian") format("svg"), url("https://trolltype.mspa.sudrien.net/orwurm-alternian.ttf?v=2&captcha=TROLFONT") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+.orwurm-alternian, .orwurm-alternian_flip, .orwurm-alternian_flip *, .orwurm-alternian *, .orwurm-alternian_flip * {
+  direction: rtl;
+  font-family: 'orwurm-alternian';
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .orwurm-alternian:before, .orwurm-alternian_flip:before, .orwurm-alternian_flip :before, .orwurm-alternian *:before, .orwurm-alternian_flip *:before {
+    content: "\202E"; }
+  .orwurm-alternian:after, .orwurm-alternian_flip:after, .orwurm-alternian_flip :after, .orwurm-alternian *:after, .orwurm-alternian_flip *:after {
+    content: "\202C"; }
+
+.orwurm-alternian_flip:hover, .orwurm-alternian_flip *:hover {
+  direction: ltr;
+  font: normal 14px/24px courier, "courier new", monospace; }
+  .orwurm-alternian_flip:hover:before, .orwurm-alternian_flip *:hover:before {
+    content: ""; }
+  .orwurm-alternian_flip:hover:after, .orwurm-alternian_flip *:hover:after {
+    content: ""; }
+

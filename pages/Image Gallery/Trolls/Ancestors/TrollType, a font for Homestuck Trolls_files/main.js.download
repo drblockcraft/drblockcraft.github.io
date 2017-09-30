@@ -1,0 +1,55 @@
+function livetest_content_setup () {
+  $('#livetest-content').removeClass()
+  $('#livetest-content').addClass($('#livetest-font').val() + " size-" + $('#livetest-size').val());
+  }
+
+
+
+
+
+function hide_sections() {
+  $('section').each( function(){
+    if('#' + $(this).attr('id') == window.location.hash) {
+      $(this).removeClass("Hide");
+      }
+    else {
+      $(this).addClass("Hide");
+      }
+    });
+  if(window.location.hash == '') {
+    $('#download').removeClass("Hide");
+    }
+  }
+
+
+
+
+
+$(window).on('hashchange', function() {
+  hide_sections();
+  });
+
+
+
+
+
+$(document).ready(function() { 
+  $('#livetest-color').simpleColor({
+    boxWidth: '20px',
+    colors: ['000000', 'ffffff', '0715cd', 'b536da', 'e00707', '4ac925', '00d5f2', 'f141ef', 'f2a400', '1f9400', 'a10000', 'a15000', 'a1a100', '626262', '416600', '008141', '008282', '005682', '000056', '2b0057', '6a006a', '77003c'],
+    onSelect: function(hex) {
+      $('#livetest-content').css({'color': '#' + hex});
+      }
+    });
+  $('#livetest-background').simpleColor({
+    boxWidth: '20px',
+    colors: ['000000', 'ffffff', '0715cd', 'b536da', 'e00707', '4ac925', '00d5f2', 'f141ef', 'f2a400', '1f9400', 'a10000', 'a15000', 'a1a100', '626262', '416600', '008141', '008282', '005682', '000056', '2b0057', '6a006a', '77003c'],
+    onSelect: function(hex) {
+      $('#livetest-content').css({'background': '#' + hex});
+      }
+    });
+  $('#livetest-size').change(livetest_content_setup);
+  $('#livetest-font').change(livetest_content_setup);
+//  $('#livetest-content').focus();
+  hide_sections();
+  });

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'trolltype-turnwise';
+  src: url("https://trolltype.mspa.sudrien.net/trolltype-turnwise.eot?v=12&captcha=TROLFONT");
+  src: url("https://trolltype.mspa.sudrien.net/trolltype-turnwise.eot?v=12&captcha=TROLFONT#iefix") format("embedded-opentype"), url("https://trolltype.mspa.sudrien.net/trolltype-turnwise.woff?v=12&captcha=TROLFONT") format("woff"), url("https://trolltype.mspa.sudrien.net/trolltype-turnwise.svg?v=12&captcha=TROLFONT#trolltype-turnwise") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.trolltype-turnwise, .trolltype-turnwise_flip, .trolltype-turnwise_flip *, .trolltype-turnwise *, .trolltype-turnwise_flip * {
+  direction: ltr;
+  font-family: 'trolltype-turnwise';
+  font-size: 18px;
+  line-height: 21px;
+  transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/*:first-child+html {} * html {} .trolltype-turnwise, .trolltype-turnwise * {
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  } */
+.trolltype-turnwise_flip:hover, .trolltype-turnwise_flip *:hover {
+  direction: ltr;
+  font: normal 14px/23px "Courier New", Courier, monospace;
+  transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg); }
+  .trolltype-turnwise_flip:hover:before, .trolltype-turnwise_flip *:hover:before {
+    content: ""; }
+  .trolltype-turnwise_flip:hover:after, .trolltype-turnwise_flip *:hover:after {
+    content: ""; }
+
+/*:first-child+html {} * html {} .trolltype-turnwise_flip, .trolltype-turnwise_flip * {
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  } */
+
