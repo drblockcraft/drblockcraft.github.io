@@ -16,17 +16,8 @@ $(document).ready(function() {
     if ((today.getMonth() == birthday.getMonth()) && (today.getDate() == birthday.getDate())) {
       alert("Happy B'day!!!");
     }
-
     var month_age = Math.floor(day_age / 30);
-
     day_age = day_age % 30;
-
-    if (isNaN(year_age) || isNaN(month_age) || isNaN(day_age)) {
-      $("#exact_age").text("Invalid birthday - Please try again!");
-    } else {
-      $("#exact_age").html("You are<br/><span id=\"age\">" + year_age + " years " + month_age + " months " + day_age + " days</span> old");
-    }
-
     var Yd = year_age * 365;
     var Yd = Yd + day_age;
     var Yd = Yd / 365;
@@ -34,9 +25,12 @@ $(document).ready(function() {
     var Sa = Sa / 13;
 
     if (isNaN(year_age) || isNaN(month_age) || isNaN(day_age)) {
+      $("#exact_age").text("Invalid birthday - Please try again!");
       $("#Exact_Sweep").text("Invalid birthday - Please try again!");
     } else {
+      $("#exact_age").html("You are<br/><span id=\"age\">" + year_age + " years " + month_age + " months " + day_age + " days</span> old");
       $("#Exact_Sweep").html("You are<br/><span id=\"Sweep\">" + Sa + " Sweeps</span> old");
     }
+
   });
 });
